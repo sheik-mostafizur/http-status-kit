@@ -5,6 +5,7 @@
  * Enum representing client error HTTP status messages (400-451).
  * Enum representing server error HTTP status codes (500-511).
  * @enum {string}
+ * @see {@link https://developer.mozilla.org/en-US/docs/Web/HTTP/Status}
  */
 
 export enum statusMessages {
