@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "description": "A simple utility kit for handling HTTP status codes and messages, providing a consistent and convenient way to manage common HTTP status scenarios.",
   "main": "dist/index.js",
+  "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsup",
