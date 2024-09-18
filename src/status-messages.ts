@@ -44,21 +44,21 @@ export enum statusMessages {
    * @type {string}
    * @see {@link https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/200}
    */
-  OK = "The request has been successfully completed.",
+  OK = "Success! Your request has been completed.",
 
   /**
    * Message for status code 201 - Created.
    * @type {string}
    * @see {@link https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/201}
    */
-  CREATED = "The request was completed, creating a new resource successfully.",
+  CREATED = "Success! New resource created.",
 
   /**
    * Message for status code 202 - Accepted.
    * @type {string}
    * @see {@link https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/202}
    */
-  ACCEPTED = "The request has been accepted for processing, but the processing has not been completed.",
+  ACCEPTED = "Request received! We're working on it.",
 
   /**
    * Message for status code 203 - Non-Authoritative Information.
@@ -72,7 +72,7 @@ export enum statusMessages {
    * @type {string}
    * @see {@link https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/204}
    */
-  NO_CONTENT = "The request was successful but there is no content to send in the response.",
+  NO_CONTENT = "Success! No additional content available.",
 
   /**
    * Message for status code 205 - Reset Content.
@@ -116,7 +116,7 @@ export enum statusMessages {
    * @type {string}
    * @see {@link https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/300}
    */
-  MULTIPLE_CHOICES = "The request has more than one possible response.",
+  MULTIPLE_CHOICES = "Multiple options available. Please choose one.",
 
   /**
    * Message for status code 301 - Moved Permanently.
