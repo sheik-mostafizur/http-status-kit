@@ -44,14 +44,14 @@ export enum statusMessages {
    * @type {string}
    * @see {@link https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/200}
    */
-  OK = "The request has succeeded.",
+  OK = "The request has been successfully completed.",
 
   /**
    * Message for status code 201 - Created.
    * @type {string}
    * @see {@link https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/201}
    */
-  CREATED = "The request has been fulfilled and a new resource has been created.",
+  CREATED = "The request was completed, creating a new resource successfully.",
 
   /**
    * Message for status code 202 - Accepted.
@@ -181,7 +181,7 @@ export enum statusMessages {
    * @type {string}
    * @see {@link https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401}
    */
-  UNAUTHORIZED = "The client must authenticate itself to get the requested response.",
+  UNAUTHORIZED = "The client needs authentication for the response.",
 
   /**
    * Message for status code 402 - Payment Required (Experimental).

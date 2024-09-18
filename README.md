@@ -11,7 +11,7 @@ A simple utility kit for handling HTTP status codes and messages, providing a co
 
 ## Description
 
-http-status-kit is a lightweight utility kit that provides a set of functions and classes to handle HTTP status codes and messages. It simplifies the process of handling errors and responses in your Node.js applications.
+http-status-kit is a lightweight utility kit that provides a set of HTTP status codes and messages. It simplifies the process of errors and responses in your Node.js applications.
 
 ## Installation
 
