@@ -130,7 +130,7 @@ export enum statusMessages {
    * @type {string}
    * @see {@link https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/302}
    */
-  FOUND = "The requested resource resides temporarily under a different URI.",
+  FOUND = "Resource temporarily moved. Please wait while we redirect you...",
 
   /**
    * Message for status code 303 - See Other.
