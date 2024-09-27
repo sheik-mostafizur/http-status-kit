@@ -216,7 +216,7 @@ export enum statusMessages {
    * @type {string}
    * @see {@link https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/406}
    */
-  NOT_ACCEPTABLE = "The requested resource is capable of generating only content not acceptable according to the Accept headers sent in the request.",
+  NOT_ACCEPTABLE = "Requested resource can't provide acceptable content.",
 
   /**
    * Message for status code 407 - Proxy Authentication Required.
