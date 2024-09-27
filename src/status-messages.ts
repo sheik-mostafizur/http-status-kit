@@ -137,14 +137,14 @@ export enum statusMessages {
    * @type {string}
    * @see {@link https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/303}
    */
-  SEE_OTHER = "The response can be found under another URI using a GET method.",
+  SEE_OTHER = "The answer is accessible via a different URI with a GET request.",
 
   /**
    * Message for status code 304 - Not Modified.
    * @type {string}
    * @see {@link https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/304}
    */
-  NOT_MODIFIED = "The resource has not been modified since the last request.",
+  NOT_MODIFIED = "The resource is unchanged since the last request.",
 
   /**
    * Message for status code 305 - Use Proxy (Deprecated).
@@ -174,14 +174,14 @@ export enum statusMessages {
    * @type {string}
    * @see {@link https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400}
    */
-  BAD_REQUEST = "The server could not understand the request due to invalid syntax.",
+  BAD_REQUEST = "Request not understood due to syntax error.",
 
   /**
    * Message for status code 401 - Unauthorized.
    * @type {string}
    * @see {@link https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401}
    */
-  UNAUTHORIZED = "The client needs authentication for the response.",
+  UNAUTHORIZED = "You must authenticate to proceed.",
 
   /**
    * Message for status code 402 - Payment Required (Experimental).
@@ -195,14 +195,14 @@ export enum statusMessages {
    * @type {string}
    * @see {@link https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403}
    */
-  FORBIDDEN = "The client does not have access rights to the content.",
+  FORBIDDEN = "You don't have permission to view this.",
 
   /**
    * Message for status code 404 - Not Found.
    * @type {string}
    * @see {@link https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404}
    */
-  NOT_FOUND = "The server can not find the requested resource.",
+  NOT_FOUND = "Requested resource unavailable.",
 
   /**
    * Message for status code 405 - Method Not Allowed.
@@ -356,7 +356,7 @@ export enum statusMessages {
    * @type {string}
    * @see {@link https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429}
    */
-  TOO_MANY_REQUESTS = "The user has sent too many requests in a given amount of time.",
+  TOO_MANY_REQUESTS = "You've sent too many requests.",
 
   /**
    * Message for status code 431 - Request Header Fields Too Large.
@@ -379,7 +379,7 @@ export enum statusMessages {
    * @type {string}
    * @see {@link https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500}
    */
-  INTERNAL_SERVER_ERROR = "The server has encountered a situation it doesn't know how to handle.",
+  INTERNAL_SERVER_ERROR = "An unexpected error occurred.",
 
   /**
    * Message for status code 501 - Not Implemented.
@@ -400,7 +400,7 @@ export enum statusMessages {
    * @type {string}
    * @see {@link https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503}
    */
-  SERVICE_UNAVAILABLE = "The server is not ready to handle the request, usually due to being overloaded or down for maintenance.",
+  SERVICE_UNAVAILABLE = "Server not ready, try again later.",
 
   /**
    * Message for status code 504 - Gateway Timeout.
