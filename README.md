@@ -42,6 +42,10 @@ import { statusCodes, statusMessages } from "http-status-kit";
 
 // response back code with message
 response.status(statusCodes.OK).send(statusMessages.OK);
+
+response.status(statusCodes.OK).send(`PROFILE: ${statusMessages.OK}`);
+response.status(statusCodes.OK).send(`PRODUCTS: ${statusMessages.OK}`);
+response.status(statusCodes.OK).send(`ITEMS: ${statusMessages.OK}`);
 ```
 
 ## Code, Name, Message
